@@ -1,0 +1,21 @@
+.six {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+    h3 {
+        margin-top: 0px;
+        @include mainText;
+        margin-bottom: 0px;
+    }  
+    p {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 400;
+        color: $main-bluegray;
+        margin-top: 24px;  
+        margin-bottom: 48px;
+    }
+}

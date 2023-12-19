@@ -1,0 +1,121 @@
+@mixin mainBtn {
+    width: 208px;
+    height: 64px;
+    border-radius: 26px;
+    border: 2px;
+    padding: 20px, 24px, 20px, 24px;
+    background-color: #C026D3;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+@mixin mainText {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 61.6px;
+    background: -webkit-linear-gradient(45deg, #C026D3, #701A75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin mainCard {
+            width: 266px;
+            height: 300px;
+            display: grid;
+            grid-template-rows: 220px 80px;
+            border-radius: 10px;
+            border: 1px solid #E2E8F0;
+            background-color: white;  
+            div {
+                display: grid;
+                grid-template-columns: 25% 75%;
+                align-items: center;
+                img {
+                    padding-left: 10px;
+                    justify-items: center;
+                }
+                p {
+                    margin: 0px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #0F172A;
+                    line-height: 20px;
+                    padding-right: 60px;
+                    span {
+                        font-size: 14px;
+                        color: #475569;
+                        font-weight: 400;
+                    }
+                }
+            }
+}
+@mixin mainIcon {
+    width: 394.67px;
+    height: 180px;
+    h6 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26.4px;
+        color: #0F172A;
+        margin: 0px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28.8px;
+        color:#475569;
+        margin: 0px;
+    }
+}
+@mixin mainSelect {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+        select {
+        width: 1280px;
+        height: 88px;
+        border-style: none;
+        border-radius: 10px;
+        border-color: #F1F5F9;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #0F172A;
+        cursor: pointer;
+        padding-left: 32px;
+        appearance: none;
+        background-image: url(../assets/Vector\ \(Stroke\).svg);
+        background-repeat: no-repeat;
+        background-position: right 32px top 50%;
+        background-size: 0.65rem;
+        }
+}
+
+$main-violet: #C026D3;
+$main-bluegray: #0F172A;
+
+@import "./header";
+@import "./first";
+@import "./second";
+@import "./third";
+@import "./fotrth";
+@import "./fifth";
+@import "./six";
+@import "./six";
+@import "./seven";
+@import "./eight";
+@import "./footer";
+
+
+
+
+
+body {
+    margin-inline: auto;
+}
+
+li {
+    list-style-type: none;
+}
+

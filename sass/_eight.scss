@@ -1,0 +1,64 @@
+.eight {
+    max-width: 1440px;
+    height: 934px;
+    margin-inline: auto;
+    background-color: #F1F5F9;
+    .Frequent {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 80px;
+    h3 {
+        margin-top: 0px;
+        @include mainText;
+        margin-bottom: 0px;
+    }  
+    p {
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 400;
+        color: $main-bluegray;
+        margin-top: 24px;  
+        margin-bottom: 80px;
+    }
+    }
+    .select1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+        select {
+        width: 1280px;
+        height: 88px;
+        border-style: none;
+        border-radius: 10px;
+        border-color: #F1F5F9;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #0F172A;
+        cursor: pointer;
+        padding-left: 32px;
+        appearance: none;
+        background-image: url(../assets/Vector\ \(Stroke\).svg);
+        background-repeat: no-repeat;
+        background-position: right 32px top 50%;
+        background-size: 0.65rem;
+        }
+    }
+    .select2 {
+      @include mainSelect; 
+    }
+    .select3 {
+        @include mainSelect; 
+      }
+      .select4 {
+        @include mainSelect; 
+      }
+      .select5 {
+        @include mainSelect; 
+      }
+}

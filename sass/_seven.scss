@@ -1,0 +1,51 @@
+.seven {
+    max-width: 1280px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 48px;
+    margin-bottom: 80px;
+    .Icon1 {
+    width: 394.67px;
+    height: 180px;
+    h6 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26.4px;
+        color: #0F172A;
+        margin: 0px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28.8px;
+        color:#475569;
+        margin: 0px;
+    }
+    }
+    .Icon2 {
+        @include mainIcon;
+    }
+    .Icon3 {
+        @include mainIcon;
+    }
+    .Icon4 {
+        @include mainIcon;
+    }
+    .Icon5 {
+        @include mainIcon;
+    }
+    .Icon6 {
+        @include mainIcon;
+    }
+    .Icon7 {
+        @include mainIcon;
+    }
+    .Icon8 {
+        @include mainIcon;
+    }
+    .Icon9 {
+        @include mainIcon;
+    }
+}

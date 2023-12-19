@@ -1,0 +1,78 @@
+.third {
+    display: flex;
+    max-width: 1280px;
+    margin-inline: auto;
+    .screen {
+        width: 977px;
+        height: 667px;
+        position: absolute;
+        margin-top: 80px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    .picture {
+        position: relative;
+        left: -960px;
+        bottom: -400px;
+        .splash {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 15px;
+            width: 256px;
+            height: 80px;
+            border-radius: 10px;
+            box-shadow: 12px 12px 0px 0px #0F172A;
+            border: 2px solid #0F172A;
+            background-color: white;
+            p {
+                padding-left: 10px;
+                font-size: 16px;
+                font-weight: 400;
+                color: #0F172A;
+                span {
+                    font-size: 14px;
+                    color: #475569;
+                    font-weight: 400;
+                }
+            }
+        }
+        .face {
+            width: 345px;
+            height: 300px;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            border-radius: 10px;
+            box-shadow: 12px 12px 0px 0px #0F172A;
+            border: 2px solid #0F172A;
+            background-color: white;
+            div {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding-left: 15px;
+                p {
+                    padding-left: 10px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #0F172A;
+                    span {
+                        font-size: 14px;
+                        color: #475569;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+    .mobile {
+        width: 350px;
+        height: 750px;
+        position: relative;
+        left: -398px;
+        bottom: -169px;
+    }
+}

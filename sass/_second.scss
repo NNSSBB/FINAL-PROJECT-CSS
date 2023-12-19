@@ -1,0 +1,24 @@
+.second {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 180px;
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        @include mainText;
+    }
+    p {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 400;
+        color: $main-bluegray;
+    }
+    button {
+    @include mainBtn;
+    }
+}
